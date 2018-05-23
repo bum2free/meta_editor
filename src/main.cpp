@@ -152,8 +152,8 @@ int process_dir(const std::string &src_path,
                 //set artist
                 if (artist.size() != 0)
                 {
-                    cmd_args_.push_back("--artist");
-                    cmd_log += "--artist ";
+                    cmd_args_.push_back("--albumArtist");
+                    cmd_log += "--albumArtist ";
                     cmd_args_.push_back(artist);
                     cmd_log += artist;
                     cmd_log += " ";
